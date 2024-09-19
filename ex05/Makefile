@@ -7,7 +7,7 @@ CC = c++
 RM = rm -f
 CPPFLAGS = -Wall -Wextra -Werror -std=c++98
 
-NAME = dream
+NAME = harl
 
 all: $(NAME)
 
