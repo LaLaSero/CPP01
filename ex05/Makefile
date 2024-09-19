@@ -1,5 +1,5 @@
 SRC = main.cpp\
-harl.cpp\
+Harl.cpp\
 
 
 OBJ = $(SRC:.cpp=.o)
@@ -7,7 +7,7 @@ CC = c++
 RM = rm -f
 CPPFLAGS = -Wall -Wextra -Werror -std=c++98
 
-NAME = harl
+NAME = Harl
 
 all: $(NAME)
 

@@ -1,5 +1,5 @@
-#include "main.hpp"
-#include "harl.hpp"
+#include "Harl.hpp"
+#include <iostream>
 
 int main()
 {
