@@ -42,14 +42,10 @@ int main(int argc, char **argv)
 
 		while ((found_pos = line.find(s1, pos)) != std::string::npos)
 		{
-			// posからfound_posまでの文字列を追加
 			new_line.append(line, pos, found_pos - pos);
-			// s2を追加
 			new_line.append(s2);
-			// posを更新
 			pos = found_pos + s1.length();
 		}
-		// 残りの文字列を追加
 		new_line.append(line, pos, line.length() - pos);
 
 		outputFile << new_line << std::endl;
